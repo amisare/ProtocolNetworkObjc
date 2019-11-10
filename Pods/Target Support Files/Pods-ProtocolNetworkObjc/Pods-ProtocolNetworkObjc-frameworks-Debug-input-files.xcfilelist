@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ProtocolNetworkObjc/Pods-ProtocolNetworkObjc-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GCDWebServer/GCDWebServer.framework
+${BUILT_PRODUCTS_DIR}/NNPopObjc/NNPopObjc.framework
