@@ -121,8 +121,8 @@
 		67F382E7237733D3002482D4 /* ProtocolNetworkObjc */ = {
 			isa = PBXGroup;
 			children = (
-				7AC2C64B2377D61000CCEA52 /* Server */,
 				67F3831D23773459002482D4 /* Source */,
+				7AC2C64B2377D61000CCEA52 /* Server */,
 				67F382E8237733D3002482D4 /* AppDelegate.h */,
 				67F382E9237733D3002482D4 /* AppDelegate.m */,
 				67F382EB237733D3002482D4 /* SceneDelegate.h */,
