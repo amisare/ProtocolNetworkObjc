@@ -6,7 +6,7 @@ NNPopObjc 项目用于 Objective-C 实现协议扩展，达到与 Swift 中协�
 
 [ProtocolNetwork](https://github.com/MDCC2016/ProtocolNetwork) 是 [喵神王巍](https://onevcat.com/#blog) 在 MDCC 16 (移动开发者大会) iOS 专场《面向协议编程与 Cocoa 的邂逅》主题演讲时使用的 Demo 工程， Demo 演示了 Swift 面向协议编程在 Cocoa 中的使用示例。
 
-该项目基于 NNPopObjc 实现了 Objective-C 版的 [ProtocolNetwork](https://github.com/MDCC2016/ProtocolNetwork) 。
+该项目基于 NNPopObjc 完全复刻实现了 Objective-C 版的 [ProtocolNetwork](https://github.com/MDCC2016/ProtocolNetwork) 。
 
 参考：
 喵神王巍博客中面向协议编程在 Cocoa 中使用的相关文章：
