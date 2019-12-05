@@ -12,7 +12,7 @@ NNPopObjc is inspired by protocol oriented programming, it provides extensibilit
 
 ## Documents
 
-* Read the [NNPopObjc Guide](Docs/0.2.x/usage_en.md) document.
+* Read the [NNPopObjc Guide](Doc/1.0.x/usage_en.md) document.
 
 ## Quick Start
 
@@ -85,7 +85,7 @@ Extending the Procotol needs in a `.m` file
 
 ## Installation
 
-NNPopObjc supports CocoaPods for installing the library in a project.
+NNPopObjc supports multiple methods for installing the library in a project.
 
 ### Installation with CocoaPods
 
@@ -95,7 +95,7 @@ You can install it with the following command:
 $ gem install cocoapods
 ```
 
-### Podfile
+#### Podfile
 
 To integrate NNPopObjc into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
@@ -104,7 +104,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 target 'TargetName' do
-pod 'NNPopObjc', '~> 0.2.1'
+    pod 'NNPopObjc'
 end
 ```
 
@@ -126,11 +126,30 @@ try install with the following command:
 pod install --repo-update
 ```
 
+### Installation with Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate NNPopObjc into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "amisare/NNPopObjc" ~> 1.0.1
+```
+
+Run `carthage` to build the framework and drag the built `NNPopObjc.framework` into your Xcode project.
+
 ## inspired
 
-- [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/)
-- [ProtocolKit](https://github.com/forkingdog/ProtocolKit)
 - [libextobjc](https://github.com/jspahrsummers/libextobjc)
+- [ProtocolKit](https://github.com/forkingdog/ProtocolKit)
+- [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015/408/)
 
 ## License
 

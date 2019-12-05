@@ -14,11 +14,9 @@
 #import "NNPopObjcDefines.h"
 #import "NNPopObjcDescription.h"
 #import "NNPopObjcExtension.h"
-#import "NNPopObjcInjection.h"
 #import "NNPopObjcMacros.h"
-#import "NNPopObjcProtocol.h"
 #import "NNPopObjcWhere.h"
-#import "metamacros.h"
+#import "NNPopObjcMetaMacros.h"
 
 FOUNDATION_EXPORT double NNPopObjcVersionNumber;
 FOUNDATION_EXPORT const unsigned char NNPopObjcVersionString[];
