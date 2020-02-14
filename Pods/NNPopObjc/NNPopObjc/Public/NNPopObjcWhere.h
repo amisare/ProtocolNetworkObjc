@@ -1,8 +1,9 @@
 //
 //  NNPopObjcWhere.h
-//  Pods
+//  NNPopObjc
 //
 //  Created by GuHaijun on 2019/11/2.
+//  Copyright © 2019 GuHaiJun. All rights reserved.
 //
 
 #ifndef NNPopObjcWhere_h
@@ -53,7 +54,7 @@ typedef enum : NSUInteger {
 
 #define nn_pop_where_1(expression) \
         nn_pop_where_keywordify, \
-        _, \
+        , \
         nn_pop_where_block_(expression, false) \
 
 #define nn_pop_where_2(unique_id, expression) \

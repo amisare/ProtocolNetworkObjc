@@ -15,6 +15,7 @@
 #import "NNPopObjcDescription.h"
 #import "NNPopObjcExtension.h"
 #import "NNPopObjcMacros.h"
+#import "NNPopObjcScope.h"
 #import "NNPopObjcWhere.h"
 #import "NNPopObjcMetaMacros.h"
 

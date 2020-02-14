@@ -2,7 +2,7 @@
 //  NNPopObjcInjection.m
 //  NNPopObjc
 //
-//  Created by 顾海军 on 2019/10/26.
+//  Created by GuHaijun on 2019/10/26.
 //  Copyright © 2019 GuHaiJun. All rights reserved.
 //
 
@@ -43,11 +43,10 @@ static pthread_mutex_t injectLock = PTHREAD_MUTEX_INITIALIZER;
 /// @param clazz A clazz that it is sub clazz of root or the root self.
 Class classRootProtocolClass(Class clazz, Protocol *protocol) {
     
-    Class result = nil;
+    NSCAssert(clazz != nil, @"Parameter clazz cannot be nil");
+    NSCAssert(protocol != nil, @"Parameter protocol cannot be nil");
     
-    if (clazz == nil || protocol == nil) {
-        return result;
-    }
+    Class result = nil;
     
     Class currentClazz = clazz;
     while (currentClazz) {
@@ -66,11 +65,10 @@ Class classRootProtocolClass(Class clazz, Protocol *protocol) {
 /// @param protocol A protocol.
 BOOL classConformsToProtocol(Class clazz, Protocol *protocol)  {
     
-    BOOL result = false;
+    NSCAssert(clazz != nil, @"Parameter clazz cannot be nil");
+    NSCAssert(protocol != nil, @"Parameter protocol cannot be nil");
     
-    if (clazz == nil || protocol == nil) {
-        return result;
-    }
+    BOOL result = false;
     
     Class currentClazz = clazz;
     while (currentClazz) {
@@ -89,10 +87,11 @@ BOOL classConformsToProtocol(Class clazz, Protocol *protocol)  {
 /// @param protocolExtensions nn_pop_protocol_extension_t list
 BOOL classIsExtensionClass(Class clazz, std::vector<ProtocolExtension *> protocolExtensions) {
     
+    NSCAssert(clazz != nil, @"Parameter clazz cannot be nil");
+    
     BOOL result = false;
     
     for (auto protocolExtension : protocolExtensions) {
-        
         protocolExtension->extension.foreach([&](ExtensionNode *item, BOOL *stop) {
             if (clazz == item->clazz) {
                 result = true;
@@ -113,6 +112,9 @@ BOOL classIsExtensionClass(Class clazz, std::vector<ProtocolExtension *> protoco
 /// @param checkSupserImplement Whether the injection should check super implemention,
 /// if a instance mathod has been implemented by super class, then jump over the injection.
 void injectImplementions(Class clazz, Class extentionClazz, BOOL checkSupserImplement) {
+    
+    NSCAssert(clazz != nil, @"Parameter clazz cannot be nil");
+    NSCAssert(extentionClazz != nil, @"Parameter extentionClazz cannot be nil");
     
     unsigned int iMethodCount = 0;
     Method *iMethodList = class_copyMethodList(extentionClazz, &iMethodCount);
@@ -162,6 +164,9 @@ void injectImplementions(Class clazz, Class extentionClazz, BOOL checkSupserImpl
 /// @param clazz A class
 /// @param protocolExtension A nn_pop_protocol_extension_t struct
 void injectProtocolExtension(Class clazz, ProtocolExtension *protocolExtension) {
+    
+    NSCAssert(clazz != nil, @"Parameter clazz cannot be nil");
+    NSCAssert(protocolExtension != nil, @"Parameter protocolExtension cannot be nil");
     
     ExtensionList defaultList = ExtensionList();
     ExtensionList constrainedList = ExtensionList();
@@ -224,6 +229,8 @@ void injectProtocolExtension(Class clazz, ProtocolExtension *protocolExtension) 
 /// Injects each protocols extension in to the corresponding class
 /// @param protocolExtensions nn_pop_protocol_extension_t list
 void injectProtocolExtensions(std::vector<ProtocolExtension *> protocolExtensions) {
+    
+    POP_DLOG(INFO) << "Inject protocol extensions begin";
     
     std::sort(protocolExtensions.begin(), protocolExtensions.end(), [=](const ProtocolExtension *a, const ProtocolExtension *b) {
         
@@ -290,6 +297,8 @@ void injectProtocolExtensions(std::vector<ProtocolExtension *> protocolExtension
     }
     
     free(clazzes);
+    
+    POP_DLOG(INFO) << "Inject protocol extensions end";
 }
 
 /// Loads protocol extensions info from image segment
@@ -312,6 +321,8 @@ void loadSection(const nn_pop_mach_header *mhp,
     }
     
     @autoreleasepool {
+        
+        POP_DLOG(INFO) << "Load protocol extensions begin";
         
         unsigned long sectionItemCount = size / sizeof(ExtensionDescription);
         ExtensionDescription *sectionItems = (ExtensionDescription *)sectionData;
@@ -344,13 +355,19 @@ void loadSection(const nn_pop_mach_header *mhp,
             }
         }
         
+        POP_DLOG(INFO) << "Load protocol extensions end";
+        
         if (loaded) {
             loaded(protocolExtensions);
         }
         
+        POP_DLOG(INFO) << "Free protocol extensions begin";
+        
         for (auto protocolExtension : protocolExtensions) {
             delete protocolExtension;
         }
+        
+        POP_DLOG(INFO) << "Free protocol extensions end";
     }
     
     pthread_mutex_unlock(&injectLock);

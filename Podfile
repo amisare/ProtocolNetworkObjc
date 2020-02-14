@@ -6,7 +6,7 @@ use_frameworks!
 workspace 'ProtocolNetworkObjc.xcworkspace'
 
 def all_pods
-    pod 'NNPopObjc',        '1.0.1'
+    pod 'NNPopObjc',        '1.0.2'
     pod 'GCDWebServer',     '3.5.3'
 end
 
