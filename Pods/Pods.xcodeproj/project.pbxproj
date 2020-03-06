@@ -9,58 +9,60 @@
 /* Begin PBXBuildFile section */
 		0499E8ADB637D94C720416C3F515B590 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB0414526F98AF95AA15EB9E045EDE /* GCDWebServerStreamedResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		050C8AC7CB576568709AFDA6F5553257 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 232E19EDA13DB13BBFA75577B64F324B /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C37BD45EB932564AB286356A888CDE3 /* NNPopObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B990C5A07B8D603E029030B1EFB4709 /* NNPopObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E914640F9B1806E5D1B852DD6AA7870 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 976B211A845FF829DFF8FCF1DCEACDF5 /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		120C0250F544E22A429027C6D1C0635A /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E303A771849E22CEB5ECA460556EF6 /* GCDWebServerDataRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		198B20618B4E791E48C9D024177DA2F3 /* NNPopObjcDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6601251A6D413AD56D247EBDA5573019 /* NNPopObjcDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14540A63293BF220FC1123D225EF438E /* NNPopObjcDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0850DA8CC1338ECBDBFBD3B9BE45D4 /* NNPopObjcDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1713AAB15DF0CE6C2807A3FB24631BF6 /* NNPopObjcTickTock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5836430074A2E4AD6E8D922E4BA372B1 /* NNPopObjcTickTock.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1F287FB91DC6F181C94C21D49DFF05D2 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA8A6489E0D3B5805E127DC60186180 /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FF95D85DC970E72F12BD003C32377EB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80D117D9C037C834DC6A8201EDBD995 /* CFNetwork.framework */; };
+		2143DE0A1011B936E206294D277E898B /* NNPopObjcMemory.mm in Sources */ = {isa = PBXBuildFile; fileRef = F90FF02D26E88632CF60B859E48763EB /* NNPopObjcMemory.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21846481C38E27529BFE0D88FD221506 /* NNPopObjcInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EC84CC1D735B9405306BBECF9A9ABF /* NNPopObjcInjection.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		22DF6CD6F5F9A5D03AD5618B8008D21B /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345E09483DACE0E6D76C4E43170B4BA /* GCDWebServerURLEncodedFormRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2512226CAE7B19AB8587F91C5DC8CCB8 /* NNPopObjcDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DC5A304BCB43A5924E6F27E7C01C82 /* NNPopObjcDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD8B2BD7A6337007289DB6917AF6084 /* NNPopObjcScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 7704D0184EA0D84680AD65B7F02171F7 /* NNPopObjcScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CDA9E6511CF26AB520D130283E1941C /* NNPopObjcInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7B304A79696095590F2EC6F27DFBC0 /* NNPopObjcInjection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		29F1930524DD02E409C911BE55CC2383 /* NNPopObjcDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 71273ACDF5BEC7B08F04C7610608FF13 /* NNPopObjcDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D3FF29A45376E46E8F90C317CF97A30 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2359779B742B332582890718DF40D6FA /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E95835DD5E345DD5401CB3340CC7AF9 /* NNPopObjcLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1804F0384EF0EAF348CB5843DE4A5B /* NNPopObjcLogging.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		351D93F4686CC1F7BEE1DA7117799E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F02DA82896291E1FBCDE4B4CB70111 /* Foundation.framework */; };
+		43C7DD05852BE922DF2A8AF6B8B100E5 /* NNPopObjcInjection.mm in Sources */ = {isa = PBXBuildFile; fileRef = D46786C7E0017813FACE6256E148CC8E /* NNPopObjcInjection.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		493DA9EA5381948BBED4B647A8254635 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2851609607FB69035702834C778580 /* GCDWebServer-dummy.m */; };
 		49F5DA04F881749FA2F3FE1063C059D3 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 229C75565E1A6FFCD88D7B1EF8F1332F /* GCDWebServerErrorResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4D97B81E5C505EE48AFEC9139AFBB7EC /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C2877286BBBCE37B6AF0D1D2AA3E93 /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4FA484F201B9C029E3FE3CAF8E53C87C /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 723954AD973C063E437346CEBA7A7B46 /* GCDWebServerDataResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		552748F59E7390A631C3CDBCA17D0B17 /* NNPopObjcMemory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F8534705196B65C20BBD456E1C657 /* NNPopObjcMemory.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5220C93F531F3EEB45416DB824C7F9A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F02DA82896291E1FBCDE4B4CB70111 /* Foundation.framework */; };
 		5564811F26D68B70573A181B63A7ACFE /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C4C15388E158F4B10C2CB8AF4A377F /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		615B622D292B618EBD7ABCA828ABF8CF /* NNPopObjcInjection.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6F28DC83E77B80660ACDC7084717CCD /* NNPopObjcInjection.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6291FBD5A952634507A01253934C36CB /* NNPopObjcMetaMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EDF6A2957FCCDEA390BAC25F3059B7 /* NNPopObjcMetaMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BF1B7E12AC37BCC58A311677324755B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147829449DB6B66F49A658BFC8D561D0 /* MobileCoreServices.framework */; };
 		6F0E8ED69286411E61F851F75675CCF8 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B24629DEA3BF57B98295B7EA2C57536 /* GCDWebServerFileRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		79058DB6826C123FE606E2BEF2677A00 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F6DCAE2D564AB7CB3C56BD5D9EF03 /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79235600935D243E214797F1D368DE45 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4762884E288CED4E7ECEDCC86EDF6449 /* GCDWebServerMultiPartFormRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7A1C3106A1EBAF22923B3F02E69739F2 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B04C15F5D798FEEEA37200269669E53 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BF1CB2732F3485E585F7AC4EB8E159E /* NNPopObjcProtocol.mm in Sources */ = {isa = PBXBuildFile; fileRef = C60F78AA6E1813AD8E2204408A0D2719 /* NNPopObjcProtocol.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7CF3D0FFCF7500A1878539657C1AFBE0 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F5C393C3074489D57884F9308604B4 /* GCDWebServerFileResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7DCCFF693F31062295B49B39B7598D7F /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B575DC3BD16C1B99E62E3944E563ACE /* GCDWebServerFunctions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		82634A34A2A6FC64E963E4BCC9D9AA3C /* NNPopObjcExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C503DEA734D8F1924E6F52E2F998E7 /* NNPopObjcExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		852DF00A9F6BB0DD098754EA659ADA40 /* NNPopObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55995DAB407E3BC3C46E27F86FB3B9A8 /* NNPopObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8561ABA874E2469BF474E73F8E8C06AD /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9FBE3C3D56BB32485F464B61606055 /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E002043F2C3A74D21B04A8634E8246 /* NNPopObjcWhere.h in Headers */ = {isa = PBXBuildFile; fileRef = 20ABAC7E06DDB533E4068D78744369DE /* NNPopObjcWhere.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		874D2C4CDE3175C86C4A1CE35ED70320 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 05970A87653E71DC8331600B1189931C /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		895A8F7877A46A883918957EBD1EC098 /* NNPopObjcProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A8BEA3AFE5A7F7C4108D3154282F2D /* NNPopObjcProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8B76AEA606131F885C14D88058563970 /* NNPopObjcProtocol.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9ABDB3F7BBA3A235F3919D6FC5FD1246 /* NNPopObjcProtocol.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8CD2F45474A7BB6E3CB4C24D9B5C4F06 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC1791622BF0589EB729750EF8CBBE2 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		900AA27A04F4669EEB777368F6D7192B /* NNPopObjcWhere.h in Headers */ = {isa = PBXBuildFile; fileRef = B185B1E12531965F9AFDC6AEFB782CCE /* NNPopObjcWhere.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BA3543A1A9DB4304E21FBA09B4CD225 /* NNPopObjcExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6938856648DC800198711917B786D1 /* NNPopObjcExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0BE9DDCF12F2AF40BDDB582024ACB33 /* NNPopObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A52F78193901E2CD2ADE7CD167565E /* NNPopObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		946159394E7F1BB7DD08E8EE68E22248 /* NNPopObjcMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E57ADE044BBA27A231329239408DC9E7 /* NNPopObjcMemory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		991F8404A2590FAD0F8EED3651C03D4D /* NNPopObjcMetaMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C2BCA99294465486090B6EDD27A164 /* NNPopObjcMetaMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A12E88A2B6F568D08E600E6A174A7C3D /* NNPopObjcScope.h in Headers */ = {isa = PBXBuildFile; fileRef = C845CC894CB4A8F76474D4EDA70DCDBB /* NNPopObjcScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1BCA4B28B4EA05ECA948402605A1028 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6E8E15E32D300CB21CE20BA319158F /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5D07BC7A90B1EBE34CD588F93B47691 /* NNPopObjcMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E41C39EF8E633B619A657CE2FF4279A /* NNPopObjcMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A702EDA0F09DA18869E3D12FED7854EB /* NNPopObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 607170FE5CC8E3BF79EE448D0FD82A2B /* NNPopObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACBB5E9F242D38F9F8C07E1717F733A9 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A82DD50931452B702934885CD8F400 /* GCDWebServer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B83E2BB0B8D03BCE103C4AC2102A3681 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B0D816BA8341D4E97BF1682C13FD2 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6C2E03AB261F61DB03DD8F52ED950C /* NNPopObjcLogging.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D2787EEBC16594B4722D5253A8D51DA /* NNPopObjcLogging.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BE35785A7D8EE2FEFBB00A4CFBB81903 /* Pods-ProtocolNetworkObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09071340CBD3D3694B70E8C593972C73 /* Pods-ProtocolNetworkObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE72255A032C50B804C8E1B6D12D4E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F02DA82896291E1FBCDE4B4CB70111 /* Foundation.framework */; };
-		C022E233E2AA175DE6BDC2E3B84E39ED /* NNPopObjcMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EAB8A9F16189330797430FB6107D76 /* NNPopObjcMemory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BE7CCA7C84C9CFB73DDAE1AD93FE29AE /* NNPopObjcTickTock.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5A75A6463B83E1B22AE52EAABAD420 /* NNPopObjcTickTock.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CFC945869C722B862999837F67FF0091 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E485D32C642A7BE35CEAA7F01C002D0 /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D23A475902FAFC82BC1FEFB6F96BB2E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F02DA82896291E1FBCDE4B4CB70111 /* Foundation.framework */; };
 		D2620B5544C397DC8E9BB895FE26AB42 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD438C357E91135A3CBF24508EA70AD /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAA0D1A111E4C03F0047066B3F0DB58E /* NNPopObjcLogging.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD887DCB99CA68C822BAA3B6703384DD /* NNPopObjcLogging.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E0892731D80646EBC9C9D13A061A6D6B /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCAB17307DD3AF4B7BCC34C6E621A80 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F0EB3C9220C2AC9C19EA84E8F1B9DD /* NNPopObjcLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 10309E65141D237A0DEFBB5DF00F2C20 /* NNPopObjcLogging.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EA5B2C0D3B143E985C684DFDFE751D47 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B323685B4A57CEE299E6C93E8B8F24 /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F12ED4A52036B73971E1258DEB85C968 /* NNPopObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467A39112C168FF58FAAA5EFFC6D0FB /* NNPopObjc-dummy.m */; };
+		EDB4F32D15B89AE2DBCB0B6731821C4E /* NNPopObjcMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F408B4C3DCA5456A4350C63C69CBF59C /* NNPopObjcMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F34D24F09E5A04D441798FAFD0C327E2 /* Pods-ProtocolNetworkObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D288CBDE4736977B90C9F0E2CA3683 /* Pods-ProtocolNetworkObjc-dummy.m */; };
 		F3C7E590CABE1D9B23008CBD0F843663 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 690C8F98AD7CAD4B953DE21DF5DBC52B /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F62983A78B7E9C4A59D1B958289F90AF /* NNPopObjcProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F47B09F5F1CA638304C4E24EF862EE5B /* NNPopObjcProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F98C5DE7B91FB4B3CBA6AF2800C6082E /* NNPopObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9E26886EBDFD75EF390077A593A7A5 /* NNPopObjc-dummy.m */; };
 		FBAC24475A48C28A1DA95E4FFCA8C8CF /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C93ACD8D9BAC2EA87B1E93E7BCD2FA /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -86,77 +88,87 @@
 		05970A87653E71DC8331600B1189931C /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
 		09071340CBD3D3694B70E8C593972C73 /* Pods-ProtocolNetworkObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProtocolNetworkObjc-umbrella.h"; sourceTree = "<group>"; };
 		09D288CBDE4736977B90C9F0E2CA3683 /* Pods-ProtocolNetworkObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProtocolNetworkObjc-dummy.m"; sourceTree = "<group>"; };
-		0B990C5A07B8D603E029030B1EFB4709 /* NNPopObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPopObjc-umbrella.h"; sourceTree = "<group>"; };
 		0E233B7E9C8D6A4E59007CD881DA4D6B /* Pods-ProtocolNetworkObjc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProtocolNetworkObjc-frameworks.sh"; sourceTree = "<group>"; };
-		13EDF6A2957FCCDEA390BAC25F3059B7 /* NNPopObjcMetaMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcMetaMacros.h; path = NNPopObjc/extobjc/NNPopObjcMetaMacros.h; sourceTree = "<group>"; };
+		10309E65141D237A0DEFBB5DF00F2C20 /* NNPopObjcLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcLogging.h; path = NNPopObjc/Source/NNPopObjcLogging.h; sourceTree = "<group>"; };
 		13F5C393C3074489D57884F9308604B4 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
 		147829449DB6B66F49A658BFC8D561D0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		1A4F8534705196B65C20BBD456E1C657 /* NNPopObjcMemory.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcMemory.mm; path = NNPopObjc/Source/NNPopObjcMemory.mm; sourceTree = "<group>"; };
 		1C6E8E15E32D300CB21CE20BA319158F /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
 		1E485D32C642A7BE35CEAA7F01C002D0 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		20ABAC7E06DDB533E4068D78744369DE /* NNPopObjcWhere.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcWhere.h; path = NNPopObjc/Public/NNPopObjcWhere.h; sourceTree = "<group>"; };
 		229C75565E1A6FFCD88D7B1EF8F1332F /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
 		232E19EDA13DB13BBFA75577B64F324B /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
 		2359779B742B332582890718DF40D6FA /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
-		2467A39112C168FF58FAAA5EFFC6D0FB /* NNPopObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NNPopObjc-dummy.m"; sourceTree = "<group>"; };
 		27E303A771849E22CEB5ECA460556EF6 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
 		28A609D2D1FFA6FDFA5354BD45F4A3B6 /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
-		355CEB1D291FC7484A837A1DEF2DC0C9 /* NNPopObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NNPopObjc-Info.plist"; sourceTree = "<group>"; };
 		3787D307E1027C3D56D9432C552A9F21 /* Pods-ProtocolNetworkObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProtocolNetworkObjc.debug.xcconfig"; sourceTree = "<group>"; };
 		3B24629DEA3BF57B98295B7EA2C57536 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
 		3B575DC3BD16C1B99E62E3944E563ACE /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
-		3B6938856648DC800198711917B786D1 /* NNPopObjcExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcExtension.h; path = NNPopObjc/Public/NNPopObjcExtension.h; sourceTree = "<group>"; };
+		3D2787EEBC16594B4722D5253A8D51DA /* NNPopObjcLogging.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcLogging.mm; path = NNPopObjc/Source/NNPopObjcLogging.mm; sourceTree = "<group>"; };
 		3DCDC9B3C37784CABF2835FB0B2C7DAB /* Pods-ProtocolNetworkObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProtocolNetworkObjc.release.xcconfig"; sourceTree = "<group>"; };
 		43F3D54903AB16545717F46A368FC74C /* Pods-ProtocolNetworkObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProtocolNetworkObjc.modulemap"; sourceTree = "<group>"; };
 		4762884E288CED4E7ECEDCC86EDF6449 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
-		47A52F78193901E2CD2ADE7CD167565E /* NNPopObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjc.h; path = NNPopObjc/NNPopObjc.h; sourceTree = "<group>"; };
-		4E41C39EF8E633B619A657CE2FF4279A /* NNPopObjcMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcMacros.h; path = NNPopObjc/Public/NNPopObjcMacros.h; sourceTree = "<group>"; };
-		598FAF2FE1B38211A709E2E201C765D1 /* NNPopObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPopObjc-prefix.pch"; sourceTree = "<group>"; };
+		51EC84CC1D735B9405306BBECF9A9ABF /* NNPopObjcInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcInjection.h; path = NNPopObjc/Source/NNPopObjcInjection.h; sourceTree = "<group>"; };
+		55995DAB407E3BC3C46E27F86FB3B9A8 /* NNPopObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPopObjc-umbrella.h"; sourceTree = "<group>"; };
+		5836430074A2E4AD6E8D922E4BA372B1 /* NNPopObjcTickTock.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcTickTock.mm; path = NNPopObjc/Source/NNPopObjcTickTock.mm; sourceTree = "<group>"; };
 		5AC1791622BF0589EB729750EF8CBBE2 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
 		5CCAB17307DD3AF4B7BCC34C6E621A80 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
-		5F1804F0384EF0EAF348CB5843DE4A5B /* NNPopObjcLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcLogging.h; path = NNPopObjc/Source/NNPopObjcLogging.h; sourceTree = "<group>"; };
-		607A29001F413EF4B9F09EF91901B510 /* NNPopObjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNPopObjc.xcconfig; sourceTree = "<group>"; };
-		6601251A6D413AD56D247EBDA5573019 /* NNPopObjcDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcDefines.h; path = NNPopObjc/Public/NNPopObjcDefines.h; sourceTree = "<group>"; };
+		607170FE5CC8E3BF79EE448D0FD82A2B /* NNPopObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjc.h; path = NNPopObjc/NNPopObjc.h; sourceTree = "<group>"; };
 		67DFD0E4406BA31F5282BC6AE018B0FB /* Pods-ProtocolNetworkObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProtocolNetworkObjc-Info.plist"; sourceTree = "<group>"; };
 		690C8F98AD7CAD4B953DE21DF5DBC52B /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		6C185B4859A612735323A5410AB1A300 /* NNPopObjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NNPopObjc.xcconfig; sourceTree = "<group>"; };
+		71273ACDF5BEC7B08F04C7610608FF13 /* NNPopObjcDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcDescription.h; path = NNPopObjc/Public/NNPopObjcDescription.h; sourceTree = "<group>"; };
 		723954AD973C063E437346CEBA7A7B46 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
 		72C93ACD8D9BAC2EA87B1E93E7BCD2FA /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		74C503DEA734D8F1924E6F52E2F998E7 /* NNPopObjcExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcExtension.h; path = NNPopObjc/Public/NNPopObjcExtension.h; sourceTree = "<group>"; };
 		75B323685B4A57CEE299E6C93E8B8F24 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
-		7704D0184EA0D84680AD65B7F02171F7 /* NNPopObjcScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcScope.h; path = NNPopObjc/Public/NNPopObjcScope.h; sourceTree = "<group>"; };
-		7A7B304A79696095590F2EC6F27DFBC0 /* NNPopObjcInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcInjection.h; path = NNPopObjc/Source/NNPopObjcInjection.h; sourceTree = "<group>"; };
+		7CE2512907F788FBE8B607D317EA4D7E /* NNPopObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NNPopObjc-Info.plist"; sourceTree = "<group>"; };
+		7F5A75A6463B83E1B22AE52EAABAD420 /* NNPopObjcTickTock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcTickTock.h; path = NNPopObjc/Source/NNPopObjcTickTock.h; sourceTree = "<group>"; };
 		84F02DA82896291E1FBCDE4B4CB70111 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8B2851609607FB69035702834C778580 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
 		8BEB0414526F98AF95AA15EB9E045EDE /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
 		9345E09483DACE0E6D76C4E43170B4BA /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
 		976B211A845FF829DFF8FCF1DCEACDF5 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
-		9A817087698093C8C781F006CB2C55E3 /* NNPopObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NNPopObjc.modulemap; sourceTree = "<group>"; };
+		9A0850DA8CC1338ECBDBFBD3B9BE45D4 /* NNPopObjcDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcDefines.h; path = NNPopObjc/Public/NNPopObjcDefines.h; sourceTree = "<group>"; };
+		9ABDB3F7BBA3A235F3919D6FC5FD1246 /* NNPopObjcProtocol.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcProtocol.mm; path = NNPopObjc/Source/NNPopObjcProtocol.mm; sourceTree = "<group>"; };
 		9B04C15F5D798FEEEA37200269669E53 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0EAB8A9F16189330797430FB6107D76 /* NNPopObjcMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcMemory.h; path = NNPopObjc/Source/NNPopObjcMemory.h; sourceTree = "<group>"; };
-		A2DC5A304BCB43A5924E6F27E7C01C82 /* NNPopObjcDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcDescription.h; path = NNPopObjc/Public/NNPopObjcDescription.h; sourceTree = "<group>"; };
+		9E017183CDC074C14D222C429F54F3B3 /* NNPopObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NNPopObjc.modulemap; sourceTree = "<group>"; };
+		A0C2BCA99294465486090B6EDD27A164 /* NNPopObjcMetaMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcMetaMacros.h; path = NNPopObjc/extobjc/NNPopObjcMetaMacros.h; sourceTree = "<group>"; };
+		A6F0C0A111062E6F8D04079EE0F8EDC2 /* NNPopObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NNPopObjc-prefix.pch"; sourceTree = "<group>"; };
 		A9C4C15388E158F4B10C2CB8AF4A377F /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
 		AAD438C357E91135A3CBF24508EA70AD /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
 		AD4B0D816BA8341D4E97BF1682C13FD2 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
-		B185B1E12531965F9AFDC6AEFB782CCE /* NNPopObjcWhere.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcWhere.h; path = NNPopObjc/Public/NNPopObjcWhere.h; sourceTree = "<group>"; };
 		B68C1052A3B51DBCF7D960F898AAFA95 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7116C4CD8A03D04FFA75511894EC1E /* GCDWebServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GCDWebServer-Info.plist"; sourceTree = "<group>"; };
-		BD887DCB99CA68C822BAA3B6703384DD /* NNPopObjcLogging.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcLogging.mm; path = NNPopObjc/Source/NNPopObjcLogging.mm; sourceTree = "<group>"; };
 		C3A2417E34AB6B43D1A0450738A2BAF3 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
-		C60F78AA6E1813AD8E2204408A0D2719 /* NNPopObjcProtocol.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcProtocol.mm; path = NNPopObjc/Source/NNPopObjcProtocol.mm; sourceTree = "<group>"; };
-		C6F28DC83E77B80660ACDC7084717CCD /* NNPopObjcInjection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcInjection.mm; path = NNPopObjc/Source/NNPopObjcInjection.mm; sourceTree = "<group>"; };
 		C80D117D9C037C834DC6A8201EDBD995 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		C845CC894CB4A8F76474D4EDA70DCDBB /* NNPopObjcScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcScope.h; path = NNPopObjc/Public/NNPopObjcScope.h; sourceTree = "<group>"; };
 		CC38E00A515526CAE3610B0FA87094E5 /* Pods_ProtocolNetworkObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProtocolNetworkObjc.framework; path = "Pods-ProtocolNetworkObjc.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46786C7E0017813FACE6256E148CC8E /* NNPopObjcInjection.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcInjection.mm; path = NNPopObjc/Source/NNPopObjcInjection.mm; sourceTree = "<group>"; };
 		D94F6DCAE2D564AB7CB3C56BD5D9EF03 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
 		DDA8A6489E0D3B5805E127DC60186180 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
 		E0A82DD50931452B702934885CD8F400 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		E57ADE044BBA27A231329239408DC9E7 /* NNPopObjcMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcMemory.h; path = NNPopObjc/Source/NNPopObjcMemory.h; sourceTree = "<group>"; };
 		ECA715BD33193078E617575751AA66FE /* Pods-ProtocolNetworkObjc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProtocolNetworkObjc-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE9F8DF1F030349345D9AB57B964DB3A /* Pods-ProtocolNetworkObjc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProtocolNetworkObjc-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE9FBE3C3D56BB32485F464B61606055 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
-		F47B09F5F1CA638304C4E24EF862EE5B /* NNPopObjcProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcProtocol.h; path = NNPopObjc/Source/NNPopObjcProtocol.h; sourceTree = "<group>"; };
+		F408B4C3DCA5456A4350C63C69CBF59C /* NNPopObjcMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcMacros.h; path = NNPopObjc/Public/NNPopObjcMacros.h; sourceTree = "<group>"; };
 		F5B71624FD152E76361C25052880B3C6 /* NNPopObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NNPopObjc.framework; path = NNPopObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C2877286BBBCE37B6AF0D1D2AA3E93 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		F8A8BEA3AFE5A7F7C4108D3154282F2D /* NNPopObjcProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NNPopObjcProtocol.h; path = NNPopObjc/Source/NNPopObjcProtocol.h; sourceTree = "<group>"; };
+		F90FF02D26E88632CF60B859E48763EB /* NNPopObjcMemory.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = NNPopObjcMemory.mm; path = NNPopObjc/Source/NNPopObjcMemory.mm; sourceTree = "<group>"; };
+		FB9E26886EBDFD75EF390077A593A7A5 /* NNPopObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NNPopObjc-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1E8F609895D71F30941768D039B920DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5220C93F531F3EEB45416DB824C7F9A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		820D66FB3D4BF009C1032E061D197A25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,14 +187,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88DC339A43C3311ABE57CDB6F0F52FD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D23A475902FAFC82BC1FEFB6F96BB2E6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -192,6 +196,14 @@
 				FBFD0B1C92FD832CA3BE968DF9131B7F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2331C6E668B5C9221AFBDBF317186409 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2BCA99294465486090B6EDD27A164 /* NNPopObjcMetaMacros.h */,
+			);
+			name = extobjc;
 			sourceTree = "<group>";
 		};
 		26C9DCCB2E6B0A19F3F327EF14565973 /* Pods-ProtocolNetworkObjc */ = {
@@ -229,42 +241,70 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5DF1F0D965D148AEE721088A95514EE5 /* Source */ = {
+		5F188365D9ADE0F58765FD5C829E06FC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				7A7B304A79696095590F2EC6F27DFBC0 /* NNPopObjcInjection.h */,
-				C6F28DC83E77B80660ACDC7084717CCD /* NNPopObjcInjection.mm */,
-				5F1804F0384EF0EAF348CB5843DE4A5B /* NNPopObjcLogging.h */,
-				BD887DCB99CA68C822BAA3B6703384DD /* NNPopObjcLogging.mm */,
-				A0EAB8A9F16189330797430FB6107D76 /* NNPopObjcMemory.h */,
-				1A4F8534705196B65C20BBD456E1C657 /* NNPopObjcMemory.mm */,
-				F47B09F5F1CA638304C4E24EF862EE5B /* NNPopObjcProtocol.h */,
-				C60F78AA6E1813AD8E2204408A0D2719 /* NNPopObjcProtocol.mm */,
+				51EC84CC1D735B9405306BBECF9A9ABF /* NNPopObjcInjection.h */,
+				D46786C7E0017813FACE6256E148CC8E /* NNPopObjcInjection.mm */,
+				10309E65141D237A0DEFBB5DF00F2C20 /* NNPopObjcLogging.h */,
+				3D2787EEBC16594B4722D5253A8D51DA /* NNPopObjcLogging.mm */,
+				E57ADE044BBA27A231329239408DC9E7 /* NNPopObjcMemory.h */,
+				F90FF02D26E88632CF60B859E48763EB /* NNPopObjcMemory.mm */,
+				F8A8BEA3AFE5A7F7C4108D3154282F2D /* NNPopObjcProtocol.h */,
+				9ABDB3F7BBA3A235F3919D6FC5FD1246 /* NNPopObjcProtocol.mm */,
+				7F5A75A6463B83E1B22AE52EAABAD420 /* NNPopObjcTickTock.h */,
+				5836430074A2E4AD6E8D922E4BA372B1 /* NNPopObjcTickTock.mm */,
 			);
 			name = Source;
 			sourceTree = "<group>";
 		};
-		6372DFB3AAB12ADD773EA80F755EA0A7 /* Support Files */ = {
+		61D43FCAE0F7F666E92C81D54F52DD13 /* NNPopObjc */ = {
 			isa = PBXGroup;
 			children = (
-				9A817087698093C8C781F006CB2C55E3 /* NNPopObjc.modulemap */,
-				607A29001F413EF4B9F09EF91901B510 /* NNPopObjc.xcconfig */,
-				2467A39112C168FF58FAAA5EFFC6D0FB /* NNPopObjc-dummy.m */,
-				355CEB1D291FC7484A837A1DEF2DC0C9 /* NNPopObjc-Info.plist */,
-				598FAF2FE1B38211A709E2E201C765D1 /* NNPopObjc-prefix.pch */,
-				0B990C5A07B8D603E029030B1EFB4709 /* NNPopObjc-umbrella.h */,
+				607170FE5CC8E3BF79EE448D0FD82A2B /* NNPopObjc.h */,
+				2331C6E668B5C9221AFBDBF317186409 /* extobjc */,
+				6DC18F1A3EA6D881B770FA84FFED34E0 /* Public */,
+				5F188365D9ADE0F58765FD5C829E06FC /* Source */,
+				7910A7E32F1DDD3C0E2EEAA5F04003BE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NNPopObjc";
+			name = NNPopObjc;
+			path = NNPopObjc;
+			sourceTree = "<group>";
+		};
+		6DC18F1A3EA6D881B770FA84FFED34E0 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				9A0850DA8CC1338ECBDBFBD3B9BE45D4 /* NNPopObjcDefines.h */,
+				71273ACDF5BEC7B08F04C7610608FF13 /* NNPopObjcDescription.h */,
+				74C503DEA734D8F1924E6F52E2F998E7 /* NNPopObjcExtension.h */,
+				F408B4C3DCA5456A4350C63C69CBF59C /* NNPopObjcMacros.h */,
+				C845CC894CB4A8F76474D4EDA70DCDBB /* NNPopObjcScope.h */,
+				20ABAC7E06DDB533E4068D78744369DE /* NNPopObjcWhere.h */,
+			);
+			name = Public;
 			sourceTree = "<group>";
 		};
 		76118C3C4992AEDA054842DFAF30829B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				35378CFF220CC31EFF6BB72C43EE88EC /* GCDWebServer */,
-				E6B29CCD984469B05E0C5537FAB6B64C /* NNPopObjc */,
+				61D43FCAE0F7F666E92C81D54F52DD13 /* NNPopObjc */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7910A7E32F1DDD3C0E2EEAA5F04003BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E017183CDC074C14D222C429F54F3B3 /* NNPopObjc.modulemap */,
+				6C185B4859A612735323A5410AB1A300 /* NNPopObjc.xcconfig */,
+				FB9E26886EBDFD75EF390077A593A7A5 /* NNPopObjc-dummy.m */,
+				7CE2512907F788FBE8B607D317EA4D7E /* NNPopObjc-Info.plist */,
+				A6F0C0A111062E6F8D04079EE0F8EDC2 /* NNPopObjc-prefix.pch */,
+				55995DAB407E3BC3C46E27F86FB3B9A8 /* NNPopObjc-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NNPopObjc";
 			sourceTree = "<group>";
 		};
 		95A5072F6F59927AF5EF5FAA3C75B3C3 /* Core */ = {
@@ -323,40 +363,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D81AC5135D5BBE1534930C43B65A99D3 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				6601251A6D413AD56D247EBDA5573019 /* NNPopObjcDefines.h */,
-				A2DC5A304BCB43A5924E6F27E7C01C82 /* NNPopObjcDescription.h */,
-				3B6938856648DC800198711917B786D1 /* NNPopObjcExtension.h */,
-				4E41C39EF8E633B619A657CE2FF4279A /* NNPopObjcMacros.h */,
-				7704D0184EA0D84680AD65B7F02171F7 /* NNPopObjcScope.h */,
-				B185B1E12531965F9AFDC6AEFB782CCE /* NNPopObjcWhere.h */,
-			);
-			name = Public;
-			sourceTree = "<group>";
-		};
-		E6B29CCD984469B05E0C5537FAB6B64C /* NNPopObjc */ = {
-			isa = PBXGroup;
-			children = (
-				47A52F78193901E2CD2ADE7CD167565E /* NNPopObjc.h */,
-				F2020F9B744259144B5D61102BDDD38E /* extobjc */,
-				D81AC5135D5BBE1534930C43B65A99D3 /* Public */,
-				5DF1F0D965D148AEE721088A95514EE5 /* Source */,
-				6372DFB3AAB12ADD773EA80F755EA0A7 /* Support Files */,
-			);
-			name = NNPopObjc;
-			path = NNPopObjc;
-			sourceTree = "<group>";
-		};
-		F2020F9B744259144B5D61102BDDD38E /* extobjc */ = {
-			isa = PBXGroup;
-			children = (
-				13EDF6A2957FCCDEA390BAC25F3059B7 /* NNPopObjcMetaMacros.h */,
-			);
-			name = extobjc;
-			sourceTree = "<group>";
-		};
 		FBFD0B1C92FD832CA3BE968DF9131B7F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,26 +390,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0FCF6E1EDD16CBD7973EBE199DE4CA3D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C37BD45EB932564AB286356A888CDE3 /* NNPopObjc-umbrella.h in Headers */,
-				A0BE9DDCF12F2AF40BDDB582024ACB33 /* NNPopObjc.h in Headers */,
-				198B20618B4E791E48C9D024177DA2F3 /* NNPopObjcDefines.h in Headers */,
-				2512226CAE7B19AB8587F91C5DC8CCB8 /* NNPopObjcDescription.h in Headers */,
-				9BA3543A1A9DB4304E21FBA09B4CD225 /* NNPopObjcExtension.h in Headers */,
-				2CDA9E6511CF26AB520D130283E1941C /* NNPopObjcInjection.h in Headers */,
-				2E95835DD5E345DD5401CB3340CC7AF9 /* NNPopObjcLogging.h in Headers */,
-				A5D07BC7A90B1EBE34CD588F93B47691 /* NNPopObjcMacros.h in Headers */,
-				C022E233E2AA175DE6BDC2E3B84E39ED /* NNPopObjcMemory.h in Headers */,
-				6291FBD5A952634507A01253934C36CB /* NNPopObjcMetaMacros.h in Headers */,
-				F62983A78B7E9C4A59D1B958289F90AF /* NNPopObjcProtocol.h in Headers */,
-				2CD8B2BD7A6337007289DB6917AF6084 /* NNPopObjcScope.h in Headers */,
-				900AA27A04F4669EEB777368F6D7192B /* NNPopObjcWhere.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E3AAD3D2D63F7AB78E62062A32A4084 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,17 +421,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBD81F49BA9E5081CABA66808EA2A6C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852DF00A9F6BB0DD098754EA659ADA40 /* NNPopObjc-umbrella.h in Headers */,
+				A702EDA0F09DA18869E3D12FED7854EB /* NNPopObjc.h in Headers */,
+				14540A63293BF220FC1123D225EF438E /* NNPopObjcDefines.h in Headers */,
+				29F1930524DD02E409C911BE55CC2383 /* NNPopObjcDescription.h in Headers */,
+				82634A34A2A6FC64E963E4BCC9D9AA3C /* NNPopObjcExtension.h in Headers */,
+				21846481C38E27529BFE0D88FD221506 /* NNPopObjcInjection.h in Headers */,
+				E3F0EB3C9220C2AC9C19EA84E8F1B9DD /* NNPopObjcLogging.h in Headers */,
+				EDB4F32D15B89AE2DBCB0B6731821C4E /* NNPopObjcMacros.h in Headers */,
+				946159394E7F1BB7DD08E8EE68E22248 /* NNPopObjcMemory.h in Headers */,
+				991F8404A2590FAD0F8EED3651C03D4D /* NNPopObjcMetaMacros.h in Headers */,
+				895A8F7877A46A883918957EBD1EC098 /* NNPopObjcProtocol.h in Headers */,
+				A12E88A2B6F568D08E600E6A174A7C3D /* NNPopObjcScope.h in Headers */,
+				BE7CCA7C84C9CFB73DDAE1AD93FE29AE /* NNPopObjcTickTock.h in Headers */,
+				86E002043F2C3A74D21B04A8634E8246 /* NNPopObjcWhere.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6E61E3EA838E8B41EDBFF44620890F0E /* NNPopObjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F5A11871A46F576B33D67D0F2CC7813 /* Build configuration list for PBXNativeTarget "NNPopObjc" */;
+			buildConfigurationList = 2D3D1223CAFE5F7612750C36D8DFBF59 /* Build configuration list for PBXNativeTarget "NNPopObjc" */;
 			buildPhases = (
-				0FCF6E1EDD16CBD7973EBE199DE4CA3D /* Headers */,
-				3430983E0B90DE20E6CC89693A18E4DD /* Sources */,
-				88DC339A43C3311ABE57CDB6F0F52FD9 /* Frameworks */,
-				92458EED1853832D8D789642C1D06191 /* Resources */,
+				FBD81F49BA9E5081CABA66808EA2A6C5 /* Headers */,
+				D4432108B251FF5E234E1D6F69FCBC55 /* Sources */,
+				1E8F609895D71F30941768D039B920DE /* Frameworks */,
+				2DDEC6DFC8CDEB9F69415ED26B43E6A4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -531,7 +538,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92458EED1853832D8D789642C1D06191 /* Resources */ = {
+		2DDEC6DFC8CDEB9F69415ED26B43E6A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -569,23 +576,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3430983E0B90DE20E6CC89693A18E4DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F12ED4A52036B73971E1258DEB85C968 /* NNPopObjc-dummy.m in Sources */,
-				615B622D292B618EBD7ABCA828ABF8CF /* NNPopObjcInjection.mm in Sources */,
-				DAA0D1A111E4C03F0047066B3F0DB58E /* NNPopObjcLogging.mm in Sources */,
-				552748F59E7390A631C3CDBCA17D0B17 /* NNPopObjcMemory.mm in Sources */,
-				7BF1CB2732F3485E585F7AC4EB8E159E /* NNPopObjcProtocol.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6C53C7B5814AAD0D5C23CBC94CCDC5ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F34D24F09E5A04D441798FAFD0C327E2 /* Pods-ProtocolNetworkObjc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4432108B251FF5E234E1D6F69FCBC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98C5DE7B91FB4B3CBA6AF2800C6082E /* NNPopObjc-dummy.m in Sources */,
+				43C7DD05852BE922DF2A8AF6B8B100E5 /* NNPopObjcInjection.mm in Sources */,
+				BA6C2E03AB261F61DB03DD8F52ED950C /* NNPopObjcLogging.mm in Sources */,
+				2143DE0A1011B936E206294D277E898B /* NNPopObjcMemory.mm in Sources */,
+				8B76AEA606131F885C14D88058563970 /* NNPopObjcProtocol.mm in Sources */,
+				1713AAB15DF0CE6C2807A3FB24631BF6 /* NNPopObjcTickTock.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,40 +652,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3E08214319ED5C687448003F1E1F8092 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607A29001F413EF4B9F09EF91901B510 /* NNPopObjc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NNPopObjc/NNPopObjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NNPopObjc/NNPopObjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NNPopObjc/NNPopObjc.modulemap";
-				PRODUCT_MODULE_NAME = NNPopObjc;
-				PRODUCT_NAME = NNPopObjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3F328085AE6D74C355804564EF6878C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -874,6 +848,75 @@
 			};
 			name = Debug;
 		};
+		CD9A58C6C8B09997689C7007AF36039A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C185B4859A612735323A5410AB1A300 /* NNPopObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NNPopObjc/NNPopObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NNPopObjc/NNPopObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NNPopObjc/NNPopObjc.modulemap";
+				PRODUCT_MODULE_NAME = NNPopObjc;
+				PRODUCT_NAME = NNPopObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2F59B43A2B5A3EFF8EF3032BEB1DC05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C185B4859A612735323A5410AB1A300 /* NNPopObjc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NNPopObjc/NNPopObjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NNPopObjc/NNPopObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NNPopObjc/NNPopObjc.modulemap";
+				PRODUCT_MODULE_NAME = NNPopObjc;
+				PRODUCT_NAME = NNPopObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E59A8B393F56C85677CF60EF67C80038 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28A609D2D1FFA6FDFA5354BD45F4A3B6 /* GCDWebServer.xcconfig */;
@@ -909,49 +952,14 @@
 			};
 			name = Release;
 		};
-		F43AC7AE65B6FBD1F7F4A8E5D029C7A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607A29001F413EF4B9F09EF91901B510 /* NNPopObjc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NNPopObjc/NNPopObjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NNPopObjc/NNPopObjc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NNPopObjc/NNPopObjc.modulemap";
-				PRODUCT_MODULE_NAME = NNPopObjc;
-				PRODUCT_NAME = NNPopObjc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F5A11871A46F576B33D67D0F2CC7813 /* Build configuration list for PBXNativeTarget "NNPopObjc" */ = {
+		2D3D1223CAFE5F7612750C36D8DFBF59 /* Build configuration list for PBXNativeTarget "NNPopObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E08214319ED5C687448003F1E1F8092 /* Debug */,
-				F43AC7AE65B6FBD1F7F4A8E5D029C7A0 /* Release */,
+				D2F59B43A2B5A3EFF8EF3032BEB1DC05 /* Debug */,
+				CD9A58C6C8B09997689C7007AF36039A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
