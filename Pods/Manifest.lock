@@ -2,19 +2,19 @@ PODS:
   - GCDWebServer (3.5.3):
     - GCDWebServer/Core (= 3.5.3)
   - GCDWebServer/Core (3.5.3)
-  - NNPopObjc (1.0.5):
-    - NNPopObjc/extobjc (= 1.0.5)
-    - NNPopObjc/Public (= 1.0.5)
-    - NNPopObjc/Source (= 1.0.5)
-  - NNPopObjc/extobjc (1.0.5)
-  - NNPopObjc/Public (1.0.5)
-  - NNPopObjc/Source (1.0.5):
+  - NNPopObjc (1.0.6):
+    - NNPopObjc/extobjc (= 1.0.6)
+    - NNPopObjc/Public (= 1.0.6)
+    - NNPopObjc/Source (= 1.0.6)
+  - NNPopObjc/extobjc (1.0.6)
+  - NNPopObjc/Public (1.0.6)
+  - NNPopObjc/Source (1.0.6):
     - NNPopObjc/extobjc
     - NNPopObjc/Public
 
 DEPENDENCIES:
   - GCDWebServer (= 3.5.3)
-  - NNPopObjc (= 1.0.5)
+  - NNPopObjc (= 1.0.6)
 
 SPEC REPOS:
   trunk:
@@ -23,8 +23,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
-  NNPopObjc: 9576ab94c25b6fd67ff87311ef7a35ef5286cd9e
+  NNPopObjc: 1f9524c347878ce6aa2924ff23f505fb3f07adb2
 
-PODFILE CHECKSUM: a33befc1564e1aa6629719d041fc65e18412049c
+PODFILE CHECKSUM: 68c90c05cd9757b727144fd0c529efa763ce40d0
 
 COCOAPODS: 1.8.4
